@@ -7,11 +7,11 @@ second, we may understand human puzzle-solving better by studying how to impleme
 
 This project investigates a class of puzzles that have the following features in common:
 
-* full information: all information about the puzzle conguration at any given point is visible to the solver; there are no hidden or random aspects
+* full information: all information about the puzzle configuration at any given point is visible to the solver; there are no hidden or random aspects
 
-* well-defined extensions: a denition of legal extensions from a given puzzle conguration to new congurations is given
+* well-defined extensions: a definition of legal extensions from a given puzzle configuration to new configurations is given
 
-* well-defined solution: a denition of what it means for the puzzled to be in a solved state is given
+* well-defined solution: a definition of what it means for the puzzled to be in a solved state is given
 
 These features are common to a very large class of puzzles: crosswords, sudoku, peg solitaire, verbal
 arithmetic, and so on. This project generalizes the required features into an abstract superclass Puzzle,
